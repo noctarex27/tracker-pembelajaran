@@ -1,0 +1,120 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  color: #1e293b;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #64748b;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  margin-bottom: 20px;
+}
+
+.card h2 {
+  font-size: 1.1rem;
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #334155;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input[type="text"] {
+  padding: 10px 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  outline: none;
+}
+
+input[type="text"]:focus {
+  border-color: #3b82f6;
+}
+
+#addBtn {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+#addBtn:hover {
+  background-color: #1d4ed8;
+}
+
+#trackerList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#trackerList li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+#trackerList li:last-child {
+  border-bottom: none;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.info strong {
+  font-size: 1rem;
+  color: #1e293b;
+}
+
+.info small {
+  color: #64748b;
+  margin-top: 2px;
+}
+
+.check-btn {
+  background-color: #10b981;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.check-btn:hover {
+  background-color: #059669;
+}
